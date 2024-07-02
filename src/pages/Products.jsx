@@ -66,7 +66,7 @@ const Products = () => {
             className="mt-3"
             style={{ width: "200px" }}
             min={0}
-            max={7000}
+            max={1000}
             value={price}
             onChange={(e) => setPrice(e.target.value)}
           />

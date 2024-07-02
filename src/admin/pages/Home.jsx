@@ -48,11 +48,14 @@ const AddProduct = ({
   const [price, setPrice] = useState("");
 
   const categories = [
-    "SmartPhone",
-    "Laptop",
-    "Groccesary",
-    "T Shirt",
-    "Footwear",
+    "Maybelline",
+    "MamaEarth",
+    "Good Vibes",
+    "NY Bae",
+    "Faces Canada",
+    "DermDec",
+    "Carmesi",
+    "Lakme"
   ];
 
   const changeImageHandler = (e) => {

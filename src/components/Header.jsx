@@ -23,8 +23,8 @@ const Header = ({ isAuth }) => {
       expand="lg"
       className="nav lg-body-tertiary"
     >
-      <Container  >
-      <Navbar.Brand className='text-nav'><img src="/public/purplle-logo-1.svg" alt="" /></Navbar.Brand>
+      <Container fluid >
+      <Navbar.Brand className='text-nav'><img src="\public\purpllelogo.ico" alt="" style={{height:"50px",width:"100px", borderRadius:"5px"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

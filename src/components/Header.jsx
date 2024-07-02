@@ -18,13 +18,13 @@ const Header = ({ isAuth }) => {
   };
   return (
     <Navbar
-      bg="secondary"
+      bg="dark"
       data-bs-theme="dark"
       expand="lg"
       className="nav lg-body-tertiary"
     >
       <Container fluid >
-      <Navbar.Brand className='text-nav'><a href="https://logowik.com/purplle-logo-vector-52579.html">
+      <Navbar.Brand className='text-nav'><a href="/">
       <img src="https://logowik.com/content/uploads/images/purplle5775.logowik.com.webp" style={{height:"50px",width:"100px",borderRadius:"7px"}}/></a></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -71,7 +71,7 @@ const Header = ({ isAuth }) => {
               Logout
             </Button>
           ) : (
-            <Button onClick={() => navigate("/login")} variant="success">
+            <Button onClick={() => navigate("/login")} variant="dark">
               Login
             </Button>
           )}

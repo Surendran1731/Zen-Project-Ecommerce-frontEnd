@@ -18,15 +18,6 @@ const Slider = () => {
       <Carousel.Item>
         <img src="/image5.jpg" alt="img" className="d-block w-100" />
       </Carousel.Item>
-      <Carousel.Item>
-        <img src="/image6.jpg" alt="img" className="d-block w-100" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src="/image7.jpg" alt="img" className="d-block w-100" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src="/image8.jpg" alt="img" className="d-block w-100" />
-      </Carousel.Item>
     </Carousel>
   );
 };

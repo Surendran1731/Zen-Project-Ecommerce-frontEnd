@@ -26,8 +26,8 @@ const Verify = () => {
             required
           />
         </Form.Group>
-        <Button type="submit">Verify</Button> <br />
-        <Link to="/login">Go to Login Page Click here</Link>
+        <Button type="submit">Verify</Button> <br /><br />
+        <Button><Link to="/login">Go to Login Page Click here</Link></Button>
       </Form>
     </Container>
   );

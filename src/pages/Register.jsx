@@ -49,8 +49,9 @@ const Register = () => {
             required
           />
         </Form.Group>
-        <Button type="submit">Register</Button> <br />
-        <Link to="/login">Have an account you Click here</Link>
+        <Button type="submit">Register</Button> <br /><br />
+        <Button><Link to="/login">Have an account you Click here</Link></Button>
+        
       </Form>
     </Container>
   );

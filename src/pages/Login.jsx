@@ -37,8 +37,9 @@ const Login = () => {
             required
           />
         </Form.Group>
-        <Button type="submit">Login</Button> <br />
-        <Link to="/register">Don't have an Account Click here..</Link>
+        <Button type="submit">Login</Button> <br /> <br />
+        <Button><Link to="/register">Don't have an Account Click here..</Link></Button>
+       
       </Form>
     </Container>
   );

@@ -101,7 +101,7 @@ const Products = () => {
               <Pagination.Item
                 key={i}
                 onClick={() => setPage(i + 1)}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer" ,color:"white"}}
               >
                 {i + 1}
               </Pagination.Item>

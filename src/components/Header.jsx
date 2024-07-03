@@ -18,14 +18,15 @@ const Header = ({ isAuth }) => {
   };
   return (
     <Navbar
-      bg="dark"
-      data-bs-theme="dark"
+      bg="secondary"
+      data-bs-theme="secondary"
       expand="lg"
       className="nav lg-body-tertiary"
     >
       <Container fluid >
-      <Navbar.Brand className='text-nav'><a href="/">
-      <img src="https://logowik.com/content/uploads/images/purplle5775.logowik.com.webp" style={{height:"50px",width:"100px",borderRadius:"7px"}}/></a></Navbar.Brand>
+      <Navbar.Brand className='text-nav'>
+      <img src="https://logowik.com/content/uploads/images/purplle5775.logowik.com.webp" 
+          style={{height:"50px",width:"100px",borderRadius:"7px"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
